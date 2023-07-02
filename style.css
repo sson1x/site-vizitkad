@@ -1,4 +1,4 @@
-@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -147,6 +147,10 @@
     line-height: 1.8;
 }
 
+.audio-holder {
+    width: 540px;
+}
+
 .audio-block {
     background-color: #242424;
     display: flex;
@@ -193,10 +197,6 @@
     display: block;
 }
 
-.audio-holder {
-    width: 540px;
-}
-
 .audio-detail {
     flex: 1;
 }
@@ -232,14 +232,17 @@
     right: 0;
 }
 
-.courses-section-title {
+
+/* MAIN CONTENT */
+
+.course-section-title {
     font-weight: 600;
     font-size: 70px;
     color: #1A1A1A;
     margin: 60px 0;
 }
 
-.courses-row {
+.course-row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
@@ -256,7 +259,7 @@
 .img-container {
     background-size: cover;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     height: 360px;
     display: flex;
     flex-direction: row;
@@ -283,30 +286,48 @@
     background-color: #111;
     border-radius: 5px;
     color: #fff;
-    padding: 6px 0;
+    padding: 6px 0px;
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.course-category{
+
+.course-category {
     font-size: 13px;
     letter-spacing: 2px;
     color: #BABABA;
     font-weight: 400;
     margin: 18px 0;
 }
-.course-title{
+
+.course-title {
     font-size: 35px;
     font-weight: bold;
     letter-spacing: 0.3px;
     color: #1A1A1A;
     margin-bottom: 20px;
 }
-.course-desc{
+
+.course-desc {
     font-size: 16px;
     font-weight: 400;
     color: #767676;
     line-height: 1.7;
     letter-spacing: 0.5px;
 }
-.img-card-2{ background-image: url(/img/card-2.png);}
+
+.img-card-1 {
+    background-image: url(/img/card-1.png);
+}
+
+.img-card-2 {
+    background-image: url(/img/card-2.png);
+}
+
+.img-card-3 {
+    background-image: url(/img/card-3.png);
+}
+
+.img-card-4 {
+    background-image: url(/img/card-4.png);
+}
